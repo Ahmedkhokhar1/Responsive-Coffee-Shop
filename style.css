@@ -1,0 +1,654 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 375px) {
+    html{
+        overflow-x  : hidden;
+    }
+}
+
+.navbar{
+    background-color: #4D2A03;
+    text-align: center;
+    padding: 10px 0;
+}
+.navbar p{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 375px) {
+    .navbar{
+        width: 100%;
+    }
+    .navbar p{
+        font-size: 17px;
+        padding: 0px 17px;
+        line-height: 25px;
+        
+    }
+    
+}
+
+
+
+
+/* creat anchor in coffee shop website */
+.anchor{
+    display: flex;
+    width: 100%;
+    margin: 20px 0px;
+    justify-content: space-around;
+}
+
+.anchor1{
+    /* border: 1px solid #4D2A03; */
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+
+.anchor2{
+    margin-top: 10px;
+    margin-right: 60px;
+    position: relative;
+}
+
+
+
+
+.anchor2 a{
+    display: inline;    
+    text-decoration: none;
+    color: #4D2A03;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 17px;
+}
+
+
+.anchor1 .icon{
+    visibility: hidden;
+}
+
+@media screen and (max-width: 375px){
+    .anchor1{
+        margin: 0px 10px 0px 20px;
+        
+    }
+    .anchor2 a{
+        visibility: hidden;
+    }
+}
+
+
+
+
+
+
+
+/* create a image and right side unordered list add in coffee shop */
+.container{
+    background-color: #4D2A03;
+    height: 350px;
+    display: flex;
+    padding: 40px 0px 0px 140px;
+    /* justify-content: space-around; */
+}
+
+.unordered-list{
+    margin: -12px 0px 0px 40px;
+}
+
+.unordered-list h1{
+    height: 70px;
+    font-size: 45px;
+    color: white;
+}
+
+.unordered-list ul li{
+    color: white;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+
+.image img{
+    width: 500px;
+    display: block;
+}
+
+
+@media screen and (max-width: 375px){
+    .container{
+        height: 670px;
+        width: 100%;
+        margin-top: -180px;
+    }
+    .image{
+        height: 200px;
+        text-align: left;
+        margin: -10px 0 0 -100px;
+    }
+    .image img{
+        width: 280px;
+        display: block;
+    }
+    .unordered-list{
+        position: relative;
+        width: 300px;
+        top: 180px;
+        right: 300px;
+    }
+    .unordered-list h1{
+        width: 270px;
+        font-size: 35px;
+    }
+    .unordered-list ul li{
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+
+
+
+
+/* create a contact us add in coffee shop website */
+.contact-us{
+    background-color: #EEEEEE;
+    height: 200px;
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+
+.contact-us h1{
+    font-size: 45px;
+    color: #4D2A03;
+    margin-bottom: 20px;
+}
+
+.contact-us p{
+    color: #6F6E6E;    
+}
+.contact-us span{
+    color: #4D2A03;
+}
+
+.contact-us a{
+    color: #4D2A03;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+
+
+@media screen and (max-width: 375px) {
+    .contact-us{
+        height: 380px;
+    }
+    .contact-us{
+        text-align: center;
+    }
+    .contact-us p{
+        width: 280px;
+        margin: 0 0 0 45px;
+    }
+    .contact-us a{
+        margin-bottom: -30px;
+    }
+}
+
+
+
+
+/* create a coffee knowledge add in this website  */
+.knowledge{
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.knowledge h1{
+    color: #4D2A03;
+}
+
+@media screen and (max-width: 375px){
+    .knowledge{
+        margin-bottom: 200px;
+        padding: 0px 20px;
+        font-size: 18px;
+        height: 0;
+    }
+    
+}
+
+
+
+
+/* create a About us container add in this coffee shop website */
+.Display{
+    margin-bottom: -18px;
+}
+
+.Display h2{
+    text-align: center;
+    background-color: #EEEEEE;
+    height: 80px;
+    padding: 30px 0px;
+    font-size: 40px;
+    color: #4D2A03;
+}
+
+
+.main{
+    padding-top: 20px;
+    justify-content: space-around;
+    background-color: #EEEEEE;
+    display: flex;
+    height: 600px;
+}
+.main h3{
+    margin: 20px 40px;
+    color: #4D2A03;
+    font-size: 24px;
+}
+
+.main img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.main .imgine{
+    border-radius: 100px;
+    height: 200px;
+}
+
+.main ul li{
+    width: 300px;
+    padding-bottom: 10px;
+    
+}
+.div{
+    bottom: 50px;
+    position: relative;
+    left: 350px;
+}
+
+.div a{
+    margin-left: 80px;
+    text-decoration: none;
+    background-color: #4D2A03;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .main{
+        height: 1600px;
+    }
+    .one{
+        position: absolute;
+        left: 100px;
+    }
+    .one ul li{
+        margin-left: -55px;
+    }
+    .one h3{
+        margin-bottom: 50px;
+        margin-left: -10px;
+    }
+    .two{
+        position: relative;
+        left: 180px;
+        top: 500px;
+    }
+    .two ul li{
+        margin-left: -55px;
+    }
+    .two h3{
+        /* position: relative; */
+        margin-bottom: 30px;
+        margin-left: -20px;
+    }
+    .three{
+        position: relative;
+        top: 1000px;
+        right: 120px;
+    }
+    .three img, h3{
+        position: relative;
+        left: 50px;
+    }
+    .div{
+        position: relative;
+        left: 10px;
+        top: -150px;
+    }
+    .div a{
+        float: left;
+        margin-bottom: 20px;
+        margin-left: 100px;
+    }
+    .div .first-of-all{
+        margin-left: 45px;
+        width: 70%;
+    }
+
+}
+
+
+
+
+/* create a Excellent container coffee shop website */
+.Excellent{
+    background-color: #4D2A03;
+    text-align: center;
+    margin-bottom: 50px;
+    height: 330px;
+}
+.Excellent h3{
+    padding-top: 20px;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.Excellent i{
+    color: #F7B019;
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+.Excellent .para{
+    color: white;
+    margin-bottom: 10px;
+}
+.Excellent .para span{
+    font-weight: bold;
+    
+}
+
+.Excellent .google{
+    font-size:40px;
+}
+.Excellent .blue{
+    color: royalblue;
+}
+.Excellent .orange{
+    color: red;
+}
+.Excellent .yellow{
+    color: #F7B019;
+}
+
+.Excellent .green{
+    color: green;
+}
+
+.Excellent a{
+    color: #4D2A03;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: lightcyan;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    position: relative;
+    top: 80px;
+}
+
+
+@media screen and (max-width: 375px){
+    .Excellent{
+        height: 350px;
+    }
+    .Excellent h3{
+        position: relative;
+        left: -120px;
+        top: 30px;
+    }
+    .Excellent i{
+        width: 100%;
+        font-size: 26px;
+        position: relative;
+        bottom: 43px;
+        display: inline;
+
+    }
+    .Excellent .para{
+        margin-top: -27px;  
+    }
+
+
+    .Excellent .google{
+        font-weight: bold;
+    }
+    .Excellent a{
+        position: relative;
+        top: 60px;
+    }
+}
+
+
+
+/* create a Blog coffee shop add in this website */
+.Blog{
+    margin-bottom: 40px;
+}
+.Blog h1{
+    text-align: center;
+    color: #4D2A03;
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+
+
+.three-blog{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.three-blog .coffee-wagera{
+    width: 300px;
+    display: block;
+}
+
+.three-blog .first-anchor{
+    padding-top: 40px;
+    display: block;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+} 
+
+.three-blog a{
+    padding-top: 30px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 20px;
+    transition: .3s ease;
+}
+
+.three-blog a:hover{
+    color: royalblue;
+}
+
+.three-blog img{
+    width: 350px;
+    height: 200px;
+    display: block;
+}
+.three-blog .inner-one{
+    height: 290px;
+}
+
+.three-blog .inner-one, .inner-two ,.inner-three{
+    border: 1px solid lightgrey;
+    margin: 0px 10px;
+}
+
+
+
+/* create a read button in coffee shop website */
+.button{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.button a{
+    text-decoration: none;
+    background-color: #4D2A03;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+
+@media screen and (max-width: 375px) {
+    .button{
+
+    }
+}
+
+
+
+
+/* create a About CW coffee shop add in this website */
+.About-CW{
+    background-color: #4D2A03;
+    /* margin-bottom: 200px; */
+    padding: 40px 0 40px 100px;
+}
+
+.container1{
+    display: flex;
+}
+
+.container-part1{
+    color: white;
+}
+.container-part1 p{
+    width: 310px;
+    line-height: 25px;
+}
+.container-part1 h4{
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+
+.container-part2{
+    color: white;
+    margin-left: 40px;
+}
+
+.container-part2 h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container-part2 a{
+    line-height: 30px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: .3s ease;
+}
+
+.container-part2 a:hover{
+    color: seagreen;
+}
+
+.container-part3{
+    color: white;
+    margin-left: 140px;
+}
+
+.container-part3 h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container-part3 p{
+    width: 240px;
+    line-height: 25px;
+}
+
+.container-part4{
+    color: white;
+    margin-left: 80px;
+}
+.container-part4 h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.container-part4 a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 180px;
+    border: 2px solid white;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 10px 10px; 
+    transition: .3s ease;
+}
+
+.container-part4 a:hover{
+    color: seagreen;
+    border: 2px solid seagreen;
+}
+
+@media  screen and (max-width: 375px) {
+    .container-part1{
+        margin-left: -70px;
+        padding-bottom: 30px;
+
+    }
+    .container1{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-part1 p{
+        width: 300px;
+    }
+    .container-part2{
+        margin-top: 30px;
+        margin-left: -70px;
+    }
+    .container-part2 a{
+        margin-left: 10px;
+    }
+
+    .container-part3{
+        margin-top: 40px;
+        margin-left: -60px;
+    }
+    
+    .container-part3 h4{
+        margin-bottom: 10px;
+    }
+
+    .container-part4{
+        margin-left: -60px;
+        margin-top: 40px;
+    }
+
+}
